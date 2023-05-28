@@ -49,7 +49,7 @@ Now the bot is running.
 
 After you have your public URL, go back to your app settings on Slack API website.
 Navigate to 'Event Subscriptions' under the 'Features' section in the sidebar. Here, enable events.
-In the `Request URL` box, enter your public URL followed by /slack/events. For example, if your public URL is https://12345.ngrok.io, enter https://12345.ngrok.io/slack/events as the `Request URL`.
+In the `Request URL` box, enter your public URL followed by /slack/events. For example, if your public URL is http://12345.ngrok.io, enter http://12345.ngrok.io:3000/slack/events as the `Request URL`.
 Under `Subscribe to Bot Events`, click on the `Add Bot User Event` button and add `message.channels` event.
 Finally, reinstall your app to your workspace for these changes to take effect.
 
